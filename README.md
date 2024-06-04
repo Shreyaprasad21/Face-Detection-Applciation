@@ -4,7 +4,7 @@
 
 This project aims to detect faces in images using [Insert Face Detection Library/Algorithm Here]. It provides an easy-to-use interface for detecting faces in images and includes example code for getting started.
 
-![Sample Output](sample_output.png)
+
 
 ## Features
 
