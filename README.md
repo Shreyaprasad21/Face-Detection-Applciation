@@ -45,23 +45,27 @@ To install the necessary dependencies, run the following command in your project
 pip install -r requirements.txt
 ```
 ## Usage
-1. Clone the repository:
+1. Streamlit Camera:
+- Run the Streamlit application using the following command:
    ```sh
-   git clone https://github.com/Shreyaprasad21/A_Basic_Chatbot.git
+   streamlit run Streamlit_cam.py
+- This will open a web browser window where you can see the video feed from your webcam with face detection enabled.
 
-2. Run the chatbot script:
-      ```sh
-   Chatbot.ipynb
-
-3. Follow the prompts to interact with the chatbot. Type 'exit' to end the conversation.
+2. Webcam with OpenCV:
+- To run the OpenCV webcam script, use:
+   ```sh
+   python webcam_cv3.py
+- This script will open a window displaying the webcam feed with detected faces highlighted.
 
 ## File Structure
-- `Chatbot.ipynb`: Main script implementing the chatbot functionality.
-- `dialogs.txt`: Dataset containing pre-stored general questions and responses.
-- `nlp_utils.py`: Utility functions for text normalization.
-- `contractions.py`: Helper functions for handling contractions in text.
-- `README.md`: Instructions and information about the project.
-- `LICENSE`: License information.
+project-root/
+- LICENSE                           # License file for the project
+- README.md                         # Project documentation
+- Streamlit_cam.py                  # Streamlit application for face detection
+- haarcascade_frontalface_default.xml # Haar Cascade XML file for face detection
+- requirements.txt                  # List of project dependencies
+- webcam_cv3.py                     # OpenCV script for face detection
+
 
 ## Deployment
 
