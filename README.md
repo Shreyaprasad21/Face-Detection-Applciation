@@ -43,3 +43,39 @@ To install the necessary dependencies, run the following command in your project
 
 ```bash
 pip install -r requirements.txt
+```
+## Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Shreyaprasad21/A_Basic_Chatbot.git
+
+2. Run the chatbot script:
+      ```sh
+   Chatbot.ipynb
+
+3. Follow the prompts to interact with the chatbot. Type 'exit' to end the conversation.
+
+## File Structure
+- `Chatbot.ipynb`: Main script implementing the chatbot functionality.
+- `dialogs.txt`: Dataset containing pre-stored general questions and responses.
+- `nlp_utils.py`: Utility functions for text normalization.
+- `contractions.py`: Helper functions for handling contractions in text.
+- `README.md`: Instructions and information about the project.
+- `LICENSE`: License information.
+
+## Deployment
+
+1. Start the chatbot by running:
+  ```
+  python Chatbot.ipynb
+  ```
+
+2. Interact with the chatbot in the console. Type 'exit' to end the conversation.
+
+## Notes
+- The project was developed using Python, with the main chatbot functionality implemented in `Chatbot.ipynb`.
+- `nlp_utils.py` contains helper functions for text normalization.
+- The dataset (`dialogs.txt`) is provided and contains sample questions and responses.
+- Sentiment analysis and word cloud visualization are integrated into the chatbot.
+- TF-IDF vectorization is used to match user queries with stored questions.
+- The project can be extended to cover more queries and provide more detailed responses.
