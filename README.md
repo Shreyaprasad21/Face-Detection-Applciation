@@ -1,26 +1,45 @@
-# Face Detection Project
+# Face Detection Application
 
-## Overview
+A simple face detection application using OpenCV and Streamlit for real-time face detection through a webcam.
 
-This project aims to detect faces in images using [Insert Face Detection Library/Algorithm Here]. It provides an easy-to-use interface for detecting faces in images and includes example code for getting started.
+## Table of Contents
 
+- [Introduction](#introduction)
+- [Features](#features)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [File Structure](#file-structure)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Notes](#notes)
 
+## Introduction
+
+This project provides a real-time face detection application using OpenCV for image processing and Streamlit for creating an interactive web interface. It captures video from your webcam and uses a pre-trained Haar Cascade classifier to detect faces.
 
 ## Features
 
-- Face detection in images
-- [Add more features if applicable]
+- Real-time face detection through webcam.
+- Simple and interactive user interface using Streamlit.
+- Easy to set up and run.
+- Uses Haar Cascade classifiers for face detection.
 
-## Prerequisites
+## Dependencies
 
-- [List any prerequisites, such as software, libraries, or dependencies required for the project]
+The main dependencies required for this project are:
+
+- Python 3.x
+- OpenCV (`opencv-python`)
+- Streamlit
+- NumPy
+
+All dependencies are listed in the `requirements.txt` file.
 
 ## Installation
 
-[Provide installation instructions for your project. Include any setup steps, code examples, or configuration files that may be necessary.]
+To install the necessary dependencies, run the following command in your project directory:
 
 ```bash
-# Example installation steps
-git clone https://github.com/yourusername/face-detection-project.git
-cd face-detection-project
 pip install -r requirements.txt
