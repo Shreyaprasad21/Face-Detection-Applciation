@@ -1,4 +1,4 @@
-# Face Detection Application
+# Face Detection App
 
 A simple face detection application using OpenCV and Streamlit for real-time face detection through a webcam.
 
