@@ -5,7 +5,7 @@ This repository contains a Streamlit application for webcam-based face detection
 ## Contents
 
 - `LICENSE`: License file for the project.
-- `README.md`: This file. Provides an overview of the project.
+- `README.md`: This file. Provides an overview of the project.                   
 - `Streamlit_cam.py`: Main Streamlit application script.
 - `haarcascade_frontalface_default.xml`: Haar Cascade XML file for frontal face detection.
 - `webcam_cv3.py`: Python script for webcam operations using OpenCV3.
